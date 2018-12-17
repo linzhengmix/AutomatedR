@@ -1,3 +1,10 @@
-# Automated_Trading_with_R
+# Automated R
 
-This was used to record the code that from the book Automated_Trading_with_R
+### Notes for learning automated R
+
+#### Includes 2 books:
+
++ **Automated Data Collection with R**
+
++ **Autumated Trading with R**
+
