@@ -1,9 +1,9 @@
 
 #2017-11-03
 
-rootdir = "/Users/zhenglin/code/R_code/Automated_Trading_with_R"
-datador = "/Users/zhenglin/code/R_code/Automated_Trading_with_R/stockdata"
-functiondir = "/Users/zhenglin/code/R_code/Automated_Trading_with_R/functions"
+rootdir = "./Automated_Trading_with_R"
+datador = "./Automated_Trading_with_R/stockdata"
+functiondir = "./Automated_Trading_with_R/functions"
 
 setwd(functiondir)
 
