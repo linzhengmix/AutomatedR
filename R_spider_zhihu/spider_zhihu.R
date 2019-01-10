@@ -1,6 +1,4 @@
-
-
-#2017年08月16日
+# 2019-01-11 00:01:07
 
 library(rvest)
 library(downloader)
@@ -13,8 +11,8 @@ html_nodes("img")%>%html_attr("data-original")%>%na.omit
 
 link<-link[seq(1,length(link),by=2)]                   #剔除无效网址
 Name<-sub("https://pic\\d.zhimg.com/v2-","",link)      #提取图片名称
-dir.create("/Users/zhenglin/code/others/R_code/R_spider_zhihu/Image") #建立存储文件夹
-setwd("/Users/zhenglin/code/others/R_code/R_spider_zhihu/Image")      #锁定临时目录
+dir.create("./R_spider_zhihu/Image") #建立存储文件夹
+setwd("./R_spider_zhihu/Image")      #锁定临时目录
 for(i in 1:length(link)){
 	download(link[i],Name[i], mode = "wb")
 }  #下载过程
